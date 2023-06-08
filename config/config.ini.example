@@ -1,0 +1,6 @@
+[default]
+hec_token = Your Splunk HTTP Event Collector token
+splunk_url = https://{Splunk_server}:8088/services/collector/event
+url = https://www.loldrivers.io/api/drivers.json
+main_keys = Your main keys to remove
+sub_key = Single subkeys to remove (if required, needs to process new logic. Useful with only one subkey for now)
